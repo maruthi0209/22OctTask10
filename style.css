@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    position: relative;;
+    top: 10px;
+    left: 10px;
+    background-color: chocolate;
+    border: 2px solid black;
+}
+
+@media screen and (orientation : portrait) {
+    div {
+        border-radius: 0px;
+    }
+}
+
+@media screen and (orientation : landscape) {
+    div {
+        border-radius: 20px;
+    }
+}
